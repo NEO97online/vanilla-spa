@@ -1,6 +1,12 @@
 # vanilla-spa
 A simple SPA implementation built in vanilla javascript.
 
+### Installation
+You can easily install VanillaSpa using [npm](https://www.npmjs.com/).
+```
+npm install vanilla-spa --save
+```
+
 ### Dependencies
 None! VanillaSpa is made entirely in vanilla ES6 javascript.
 
@@ -23,9 +29,9 @@ http-server -o
   <main></main>
   
   <!-- Load Vanilla Spa -->
-  <script src="vanilla-spa.js"></script>
+  <script src="node_modules/vanilla-spa.js"></script>
   <!-- Load the router -->
-  <script src="router.js"></script>
+  <script src="./router.js"></script>
 </body>
 ```
 
