@@ -22,7 +22,9 @@ cd /path/to/project/
 http-server -o
 ```
 
-### Initialization
+### index.html
+The index.html is like a "shell" for the routes to be injected into.
+
 ```html
 <body>
   <!-- The main element that will receive the routed content -->
@@ -35,8 +37,8 @@ http-server -o
 </body>
 ```
 
-### Router
-This code goes in your router.js file. Load this script after the VanillaSpa script.
+### router.js
+This is where your route configuration goes.
 
 ```javascript
 const r = new Router(
@@ -50,6 +52,3 @@ const r = new Router(
   document.querySelector('main')
 );
 ```
-
-### Usage
-Since VanillaSpa uses AJAX to dynamically load views, you'll need to set up a local server.
